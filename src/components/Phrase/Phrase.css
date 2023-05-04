@@ -1,0 +1,23 @@
+.phrase_container {
+    min-width: 280px;
+    max-width: 500px;
+    padding: 70px 33px;
+    background: rgba(255, 255, 255, 0.5);
+    color: #25063f;
+    border-radius: 39px;
+} 
+
+@media screen and (max-width: 576px) {
+    .phrase_container {
+        min-width: 250px;
+        max-width: 380px;
+    }
+  }
+  
+  @media screen and (max-width: 450px) {
+    .phrase_container {
+        min-width: 150px;
+        max-width: 250px;
+        max-height: 90px;
+    }
+  }
